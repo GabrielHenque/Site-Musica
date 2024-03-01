@@ -1,7 +1,15 @@
 *{
     box-sizing: border-box;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(236, 236, 236);
     
+}
+
+html{
+    background: url(../img/wallpaper\ 2.0.png) no-repeat center center fixed ;
+    background-size: cover;
+    filter: grayscale(10%);
+    filter: brightness(95%);
 }
 
 body{
@@ -15,6 +23,7 @@ body{
     
     border-radius: 10px;
     text-align:left;
+    
 }
 
 h1{
@@ -22,14 +31,102 @@ h1{
     font-size: 100px;
     margin-top: 0;
     margin-bottom: 50px;
+    color: rgb(236, 236, 236); 
+    text-shadow: black 0.1em 0.1em 0.2em;
     
 }
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(236, 236, 236); 
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h3,ul,ol,li{
+    color: rgb(236, 236, 236); 
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+p{
+    text-align: center;
+    text-shadow: 10px;
+    color: rgb(236, 236, 236);
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
 
 img{
     /* largura */
     width: 350px;
     /* define margin na parte superior */
     margin-top: 20px;
+    margin: 0 auto;
+    display: block;
+    color: rgb(236, 236, 236);
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+th{
+    /* define a cor do fundo do elemento */
+    background: #ff0037;
+    color: rgb(236, 236, 236);
+    text-shadow: black 0.1em 0.1em 0.2em;
     
+}
+
+
+th,td{
+    /* a virgula pode ser usada para aplicar desing em mais elementos */
+    border-radius: 5px;
+    /* define a borda dos elementos */
+    border: px solid #74041C;
+    color: rgb(236, 236, 236); 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    
+}
+
+table{
+    text-align: center;
+    border-collapse:collapse;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: rgb(236, 236, 236);
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+a:hover{
+    /* css do link ao passar o mouse */
+    color: rgb(225, 46, 145);
+    border-bottom: 1px solid rgb(182, 59, 139);
+    
+}
+
+
+iframe{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    /* define largura de 100% para os elementos abaixo */
+    body,table,img{
+        width: 100%;
+    /* ajusta a altura do vídeo */
+   }
+   img{
+
+   }
+    iframe{
+        height: 300px;
+    }
+
+
 
 }
