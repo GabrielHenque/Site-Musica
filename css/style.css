@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+body{
+    /* Define largura do elemento */
+    width: 1000px;
+    border: 0;
+    /* define um espaçamento interno do elemento */
+    padding: 10px;
+    /* centraliza o elemento */
+    margin:  20px auto; 
+    
+    border-radius: 10px;
+    text-align:left;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    
+}
+
+img{
+    /* largura */
+    width: 350px;
+    /* define margin na parte superior */
+    margin-top: 20px;
+    
+
+}
