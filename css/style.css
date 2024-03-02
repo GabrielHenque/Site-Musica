@@ -121,7 +121,7 @@ iframe{
     /* ajusta a altura do vídeo */
    }
    img{
-
+        width: 50%;
    }
     iframe{
         height: 300px;
